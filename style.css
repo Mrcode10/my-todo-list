@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, black, blue);
+    transition: all 0.6s ease;
+}
+
+.container {
+    width: 40rem;
+    height: 8rem;
+    background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.618), rgba(152, 213, 233, 0.244));
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 29rem;
+    height: 3rem;
+    border-radius: 20px 50px 50px 20px;
+    -webkit-border-radius: 20px 50px 50px 20px;
+    -moz-border-radius: 20px 50px 50px 20px;
+    -ms-border-radius: 20px 50px 50px 20px;
+    -o-border-radius: 20px 50px 50px 20px;
+    border: none;
+    padding: 0 10px;
+    position: relative;
+    font-size: 24px;
+    border: 3px solid #42c277;
+}
+
+input:focus {
+    outline: none;
+}
+
+#submit {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #42c277;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+#submit i {
+    pointer-events: none;
+}
+
+#submit:hover {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.todos {
+    width: 40rem;
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(145deg, rgba(255, 255, 255, 0.618), rgba(152, 213, 233, 0.244));
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 20px;
+    transition: all 0.6s ease;
+}
+
+ul li {
+    list-style: none;
+    width: 29rem;
+    height: 3rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 24px;
+    border: 3px solid #42c277;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+
+li .btn2 {
+    width: 100px;
+    height: 2.3rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fall {
+    transform: translateY(8em) rotateZ(20deg);
+    -webkit-transform: translateY(8em) rotateZ(20deg);
+    -moz-transform: translateY(8em) rotateZ(20deg);
+    -ms-transform: translateY(8em) rotateZ(20deg);
+    -o-transform: translateY(8em) rotateZ(20deg);
+    opacity: 0;
+}
